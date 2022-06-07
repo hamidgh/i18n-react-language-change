@@ -1,18 +1,21 @@
 import React, {useState} from 'react';
 import './App.scss';
+import {useDispatch, useSelector} from 'react-redux';
+import {todoAdded} from "./redux/todosSlice";
 import {Button, Form} from "react-bootstrap";
 
 function App() {
+  const todos = useSelector((state: any) => state.todos);
+  const dispatch = useDispatch();
   const [inputField, setInputField] = useState({text: ''});
 
   const handleOnChangeInput = (e: any) => {
     setInputField({text: e.target.value})
-    console.log(inputField.text);
   }
 
   const handleOnClick = () => {
     if(inputField.text) {
-      console.log(inputField.text);
+      dispatch(todoAdded({text: inputField.text}));
       setInputField({text: ''});
     }
   }
@@ -34,6 +37,9 @@ function App() {
           onClick={handleOnClick}
         > Submit</Button>
       </Form>
+      <ul>
+      {todos.map((todo: any, index: number) => <li key={index}>{todo.text}</li>)}
+      </ul>
     </div>
   );
 }
