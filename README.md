@@ -1,11 +1,10 @@
-# Use React Redux Toolkit to create a Todo app
+# Use React Router to navigate between pages
 
-You can watch step by step of this tutorial from this link [YouTube Video](https://youtu.be/bGYujDbnjts).
+You can watch step by step of this tutorial from this link [YouTube Video](https://youtu.be/EMAr4g2RhaY).
 
 ## useful links that were used in tutorial
-1- [Redux-Redux documentation](https://react-redux.js.org/introduction/getting-started) \
-2- [Redux documentation](https://redux.js.org/introduction/why-rtk-is-redux-today) \
-3- [Redux DevTools Chrome Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
+1- [React-Router Installation](https://reactrouter.com/docs/en/v6/getting-started/installation) \
+2- [React-Router use navigation hook](https://reactrouter.com/docs/en/v6/hooks/use-navigate)
 
 ## How to run the app
 1- In the project directory, run: `npm install`\
