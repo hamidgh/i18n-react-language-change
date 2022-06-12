@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
+import HomePage from './pages/home/HomePage';
+import AboutPage from './pages/about/AboutPage';
 import {Routes, Route} from "react-router-dom";
 
 function App() {
