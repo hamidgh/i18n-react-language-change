@@ -1,20 +1,12 @@
 import React from 'react';
-import {Button} from "react-bootstrap";
-import {useNavigate} from 'react-router-dom';
-import Menu2 from "../../sharedComponent/menu/Menu2";
+import {useLocation} from 'react-router-dom';
 
 const AboutPage = () => {
-  let navigate = useNavigate();
-
-  const handleOnClick = () => {
-    navigate('/');
-  };
+  const location: any = useLocation();
 
   return (
     <div>
-      <h2>About Page</h2>
-      <Menu2/>
-      <Button onClick={handleOnClick} >Home</Button>
+      <p>Thank you <b>{location.state.name} {location.state.lastname} </b>, you have successfully submitted the form</p>
     </div>
   );
 }

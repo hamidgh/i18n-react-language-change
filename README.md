@@ -1,10 +1,9 @@
-# Use React Router to navigate between pages
+# How to pass props between components
 
-You can watch step by step of this tutorial from this link [YouTube Video](https://youtu.be/MxLBcy5YxUk).
+You can watch step by step of this tutorial from this link [YouTube Video](https://youtu.be/8MGwk11YcRU).
 
 ## useful links that were used in tutorial
-1- [Menu 1 Demo](https://codepen.io/bradtraversy/pen/vMGBjQ) \
-2- [Menu 2 Demo](https://codepen.io/alvarotrigo/pen/yLzaPVJ)
+1- [React Bootstrap](https://react-bootstrap.netlify.app/forms/form-control/)
 
 ## How to run the app
 1- In the project directory, run: `npm install`\
