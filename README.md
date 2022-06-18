@@ -1,9 +1,6 @@
-# How to pass props between components
+# Application Lifecycle Methods - React Hooks
 
-You can watch step by step of this tutorial from this link [YouTube Video](https://youtu.be/8MGwk11YcRU).
-
-## useful links that were used in tutorial
-1- [React Bootstrap](https://react-bootstrap.netlify.app/forms/form-control/)
+You can watch step by step of this tutorial from this link [YouTube Video](https://youtu.be/5sUogKfe138).
 
 ## How to run the app
 1- In the project directory, run: `npm install`\
