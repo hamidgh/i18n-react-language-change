@@ -1,6 +1,7 @@
-# Application Lifecycle Methods - React Hooks
+# Add a React Class Component to our app
 
-You can watch step by step of this tutorial from this link [YouTube Video](https://youtu.be/5sUogKfe138).
+You can watch step by step of this tutorial from this link [YouTube Video](https://youtu.be/n3YbUqQissg).
+
 
 ## How to run the app
 1- In the project directory, run: `npm install`\
