@@ -1,7 +1,9 @@
-# Add a React Class Component to our app
+# How to use Fetch API
 
-You can watch step by step of this tutorial from this link [YouTube Video](https://youtu.be/n3YbUqQissg).
+You can watch step by step of this tutorial from this link [YouTube Video](https://youtu.be/VwYhQ__slnM).
 
+## useful links that were used in tutorial
+1- [Fetch API documentation](https://developer.mozilla.org/en-US/docs/Web/API/fetch#parameters)
 
 ## How to run the app
 1- In the project directory, run: `npm install`\

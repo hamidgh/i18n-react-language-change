@@ -1,17 +1,13 @@
 import React from 'react';
 import './app.scss';
-import HomePage from './pages/home/HomePage';
-import AboutPage from './pages/about/AboutPage';
+import HomePage from './home/HomePage';
 import {Routes, Route} from "react-router-dom";
-import ContactUs from "./pages/contact/ContactUs";
 
 function App() {
   return (
     <div className="app">
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/contact" element={<ContactUs />} />
       </Routes>
     </div>
   );
