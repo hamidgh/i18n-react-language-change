@@ -1,20 +1,17 @@
-import React, {useEffect, useState} from 'react';
-import restClient from "../util/restClient";
+import React from 'react';
+import './styles/home.scss';
 
 const HomePage = () => {
-  const [books, setBooks] = useState([]);
-
-  useEffect(() => {
-    restClient('https://www.anapioficeandfire.com/api/books',
-      {headers: {'Content-Type': 'application/json'}, method: 'GET'})
-      .then((result: any) => setBooks(result));
-  }, []);
-
   return (
     <div>
-      <ul>
-        {books.map((book: any) => <li>{book.name}</li>)}
-      </ul>
+      <div className="container">
+        <div className="item box1"> 1 </div>
+        <div className="item box2"> 2 </div>
+        <div className="item box3"> 3 </div>
+        <div className="item box4"> 4 </div>
+        <div className="item box5"> 5 </div>
+        <div className="item box6"> 6 </div>
+      </div>
     </div>
   );
 }

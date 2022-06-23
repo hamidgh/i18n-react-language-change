@@ -1,9 +1,9 @@
-# How to use Fetch API
+# UI Layout with Flexbox
 
-You can watch step by step of this tutorial from this link [YouTube Video](https://youtu.be/VwYhQ__slnM).
+You can watch step by step of this tutorial from this link [YouTube Video](https://youtu.be/hIGF5O0L0E0).
 
 ## useful links that were used in tutorial
-1- [Fetch API documentation](https://developer.mozilla.org/en-US/docs/Web/API/fetch#parameters)
+1- [Flex documentation](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## How to run the app
 1- In the project directory, run: `npm install`\
