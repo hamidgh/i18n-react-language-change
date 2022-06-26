@@ -1,41 +1,93 @@
 .container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
 
   .item {
+    font-size: 2rem;
+    text-align: center;
+
+    width: 50vw;
+    height: 20vh;
+  }
+
+  .pic1,
+  .pic2 {
+    font-size: 2rem;
     border: black solid 1px;
-    flex-shrink: 1;
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
   }
 
-  .box1 {
-    height: 30px;
-    width: 50px;
+  .pic2 {
+    display: none;
   }
+}
 
-  .box2 {
-    height: 40px;
-    width: 20px;
+@media all and (max-width: 200px) {
+  .container {
+    .item {
+      font-size: 1rem;
+    }
+
+    .pic1,
+    .pic2 {
+      font-size: 1rem;
+    }
   }
+}
 
-  .box3 {
-    height: 50px;
-    width: 15px;
+@media all and (min-width: 600px) and (max-width: 767px) {
+  .container {
+    .item {
+      font-size: 3rem;
+    }
+
+    .pic1,
+    .pic2 {
+      display: initial;
+      font-size: 3rem;
+    }
   }
+}
 
-  .box4 {
-    height: 60px;
-    width: 15px;
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    .item {
+      font-size: 4rem;
+    }
+
+    .pic1,
+    .pic2 {
+      display: initial;
+      font-size: 4rem;
+    }
   }
+}
 
-  .box5 {
-    height: 70px;
-    width: 20px;
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    .item {
+      font-size: 5rem;
+    }
+
+    .pic1,
+    .pic2 {
+      display: initial;
+      font-size: 5rem;
+    }
   }
+}
 
-  .box6 {
-    height: 80px;
-    width: 50px;
+@media all and (min-width: 1200px) {
+  .container {
+    .item {
+      font-size: 6rem;
+    }
+
+    .pic1,
+    .pic2 {
+      display: initial;
+      font-size: 6rem;
+    }
   }
 }
