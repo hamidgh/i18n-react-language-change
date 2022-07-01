@@ -1,93 +1,10 @@
-.container {
-  display: flex;
+.home-page {
 
-  .item {
-    font-size: 2rem;
-    text-align: center;
-
-    width: 50vw;
-    height: 20vh;
-  }
-
-  .pic1,
-  .pic2 {
-    font-size: 2rem;
-    border: black solid 1px;
-    width: 100vw;
-    height: 50vh;
+  &--title {
     text-align: center;
   }
 
-  .pic2 {
-    display: none;
-  }
-}
-
-@media all and (max-width: 200px) {
-  .container {
-    .item {
-      font-size: 1rem;
-    }
-
-    .pic1,
-    .pic2 {
-      font-size: 1rem;
-    }
-  }
-}
-
-@media all and (min-width: 600px) and (max-width: 767px) {
-  .container {
-    .item {
-      font-size: 3rem;
-    }
-
-    .pic1,
-    .pic2 {
-      display: initial;
-      font-size: 3rem;
-    }
-  }
-}
-
-@media all and (min-width: 768px) and (max-width: 991px) {
-  .container {
-    .item {
-      font-size: 4rem;
-    }
-
-    .pic1,
-    .pic2 {
-      display: initial;
-      font-size: 4rem;
-    }
-  }
-}
-
-@media all and (min-width: 992px) and (max-width: 1199px) {
-  .container {
-    .item {
-      font-size: 5rem;
-    }
-
-    .pic1,
-    .pic2 {
-      display: initial;
-      font-size: 5rem;
-    }
-  }
-}
-
-@media all and (min-width: 1200px) {
-  .container {
-    .item {
-      font-size: 6rem;
-    }
-
-    .pic1,
-    .pic2 {
-      display: initial;
-      font-size: 6rem;
-    }
+  &--description {
+    text-align: center;
   }
 }

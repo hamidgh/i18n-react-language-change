@@ -1,5 +1,5 @@
 {
-  "name": "responsive-design",
+  "name": "i18n-language-change",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,9 +12,13 @@
     "@types/react": "^18.0.10",
     "@types/react-dom": "^18.0.5",
     "bootstrap": "^5.1.3",
+    "i18next": "^21.8.11",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-http-backend": "^1.4.1",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",
+    "react-i18next": "^11.17.3",
     "react-redux": "^8.0.2",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",

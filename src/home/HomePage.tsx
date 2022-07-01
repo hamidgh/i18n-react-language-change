@@ -1,23 +1,18 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './styles/home.scss';
+import LanguagePicker from "../sharedComponents/LanguagePicker/LanguagePicker";
 
 const HomePage = () => {
+  const { t } = useTranslation();
+
   return (
-    <div>
-      <div className="container">
-        <div className="item"> 1 </div>
-        <div className="item"> 2 </div>
-        <div className="item"> 3 </div>
-        <div className="item"> 4 </div>
-        <div className="item"> 5 </div>
-        <div className="item"> 6 </div>
-      </div>
-      <div className="container">
-        <div className="pic1">Picture 1</div>
-        <div className="pic2">Picture 2</div>
-      </div>
+    <div  className="home-page">
+      <LanguagePicker />
+      <h1 className="home-page--title">{t('HOME_PAGE.TITLE')}</h1>
+      <div className="home-page--description">{t('HOME_PAGE.DESCRIPTION.PART2')}</div>
     </div>
-  );
+  )
 }
 
 export default HomePage;

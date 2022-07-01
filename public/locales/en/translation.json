@@ -1,0 +1,9 @@
+{
+  "HOME_PAGE": {
+    "TITLE": "Welcome to react using react-i18next",
+    "DESCRIPTION": {
+      "PART1": "To get started, edit and save to reload.",
+      "PART2": "Switch language between english and farsi using flag button above."
+    }
+  }
+}

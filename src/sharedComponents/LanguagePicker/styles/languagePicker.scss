@@ -1,0 +1,25 @@
+.language-picker {
+  &--dropdown {
+    text-align: right;
+
+    button {
+      background-color: transparent;
+      font-size: 1.5rem;
+      opacity: 50%;
+
+      &:hover {
+        background-color: transparent;
+        opacity: 100%;
+      }
+    }
+
+    .dropdown-menu {
+      min-width: 1rem;
+    }
+
+    .dropdown-toggle::after {
+      display:none;
+    }
+
+  }
+}
